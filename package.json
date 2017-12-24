@@ -1,0 +1,29 @@
+{
+  "name": "timestampmicroservice",
+  "version": "1.0.0",
+  "description": "This repository is a part of Back end challenges on freeCodeCamp Edit",
+  "main": "program.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "strftime": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node program.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VukMNE/TimeStampMicroService.git"
+  },
+  "keywords": [
+    "TimeStamp",
+    "unix",
+    "service"
+  ],
+  "author": "VukMNE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VukMNE/TimeStampMicroService/issues"
+  },
+  "homepage": "https://github.com/VukMNE/TimeStampMicroService#readme"
+}
