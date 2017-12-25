@@ -1,6 +1,7 @@
 var express = require("express");
 var strftime = require("strftime");
 var app = express();
+app.use(express.static('./public'));
 app.get("/:dateInput", function(request, response){
 	var dateInput;
 	var unix;
