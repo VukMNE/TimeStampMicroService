@@ -20,9 +20,12 @@
 		</div>
 		<script>
 		
+		var currentDate = new Date();
+		document.getElementById("dateInput").placeholder = "Example: December 25, 2017";
+		
 		function redirect(){
 			var date = document.getElementById("dateInput").value;
-			window.location.href += "/" + date;
+			window.location.href += date;
 		}
 		</script>
 	</body>
