@@ -12,11 +12,18 @@
 				<h2>Timestamp Microservice</h2>
 			</div>
 			<div class="form-container text-center">
-				<form method="GET">
-					<input class="searchbar" type="text"/>
-					<input class="btn-search" type="submit" value="Check!"/>
+				<form>
+					<input id="dateInput" class="searchbar" type="text"/>
+					<input class="btn-search" type="button" value="Check!" onclick="redirect();"/>
 				</form>
 			</div>
 		</div>
+		<script>
+		
+		function redirect(){
+			var date = document.getElementById("dateInput").value;
+			window.location.href += "/" + date;
+		}
+		</script>
 	</body>
 </html>
