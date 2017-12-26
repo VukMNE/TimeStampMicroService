@@ -1,7 +1,12 @@
 .searchbar{
 	width: 20%;
 }
+
 .btn-search{
 	font-weight: bold;
 }
 
+.down-under{
+	margin-top: 50px;
+	font-size: 1.8em;
+}
