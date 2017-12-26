@@ -25,6 +25,6 @@ app.get("/:dateInput", function(request, response){
 	response.send(dateObject);
 	response.end();
 });
-//app.listen(process.env.PORT || 5000);
-app.listen(2702);
+app.listen(process.env.PORT || 5000);
+//app.listen(2702);
 
