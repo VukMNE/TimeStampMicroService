@@ -4,6 +4,7 @@
   "description": "This repository is a part of Back end challenges on freeCodeCamp Edit",
   "main": "program.js",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.2",
     "strftime": "^0.10.0"
   },
